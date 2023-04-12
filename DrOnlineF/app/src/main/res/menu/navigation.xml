@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <TextView
+        android:id="@+id/signuptv"
+        android:layout_width="323dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:text="Haven't an acount ? sign up now"
+        android:textColor="#0A472E"
+        android:textSize="22dp" />
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/ggg1">
+
+
+        <item
+            android:id="@+id/Profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/ChatD"
+            android:icon="@drawable/ic_find_replace_black_24dp"
+            android:title="Talk to a Doctor" />
+
+
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Phrarmacy Info" />
+
+
+        <item
+            android:id="@+id/search2"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Doctors Info" />
+        <item
+            android:id="@+id/addqq"
+            android:icon="@drawable/ic_add_circle_outline_black_24dp"
+            android:title="ارسال صورة لدكتور" />
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Others">
+
+
+            <item
+                android:id="@+id/Fav"
+                android:icon="@drawable/ic_favorite_border_black_24dp"
+                android:title="Favorite" />
+
+
+            <item
+                android:id="@+id/Logoutm"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Logout" />
+
+        </item>
+    </group>
+
+</menu>
